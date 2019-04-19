@@ -7,12 +7,5 @@
   "description": "A time tracker that helps you use time screen time wisely",
   "icons":  {
 
-    },
-  "page_action": {
-    "default_title": "TrackTrack",
-  },
-  "author": "Sung kyung Park",
-  "background": {
-    "persistent": false,
-  }
+    }
 }
