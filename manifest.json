@@ -3,7 +3,7 @@
   "name": "TrackTrack",
   "version": "1.0",
 
-  "default_locale": "en",
+  /* "default_locale": "en",
   "description": "A time tracker that helps you use time screen time wisely",
   "icons":  {
 
@@ -14,5 +14,5 @@
   "author": "Sung kyung Park",
   "background": {
     "persistent": false
-  }
+  } */
 }
