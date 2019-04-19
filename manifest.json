@@ -9,10 +9,10 @@
 
     },
   "page_action": {
-    "default_title": "TrackTrack",
+    "default_title": "TrackTrack"
   },
   "author": "Sung kyung Park",
   "background": {
-    "persistent": false,
+    "persistent": false
   }
 }
