@@ -1,0 +1,49 @@
+<!-- "content_security_policy": "script-src 'self' https://* 'unsafe-inline'; object-src 'self'", -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>Track Track</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="/css/popup.css">
+    <!-- <link rel="stylesheet" href="https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyAHEZF1Bf1i8fnEMND-1tZSCSccwQihVhc"> -->
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        Track Track, track your time.
+      </h1>
+    </div>
+    <div class="timeSetTo">
+      <p>Until what time?</p>
+      <input type="time" name="timeSet" id="timeSet">
+    </div>
+    <!-- <textarea id="timeSet" name="timeSet" rows="1" cols="60" placeholder="00:00"></textarea> -->
+    <div class="clockdiv">
+      <div>
+        <span class="hours" id="hour">0</span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes" id="minute">0</span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds" id="second">0</span>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+    <p id="timer"></p>
+    <!-- when clicked, start the script -->
+    <div class="buttons">
+      <button type="button" id="startbutton">Start</button>
+      <button type="button" id="resetbutton">Reset</button>
+    </div>
+    <!-- <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script> -->
+    <script src="/js/content.js"></script>
+    <script src="/js/background.js"></script>
+  </body>
+</html>

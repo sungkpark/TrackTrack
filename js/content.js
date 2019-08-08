@@ -1,3 +1,12 @@
-let firstHref = $("a[href^='http']").eq(0).attr("href");
+// var bgpage = chrome.extension.getBackgroundPage();
 
-console.log(firstHref);
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("startbutton").addEventListener("click", startTimer);
+  document.getElementById("resetbutton").addEventListener("click", resetTimer);
+})
+
+// function refreshTime() {
+//   document.getElementById("hour").innerHTML = bgpage.getHour();
+//   document.getElementById("minute").innerHTML = bgpage.getMinute();
+//   document.getElementById("second").innerHTML = bgpage.getSecond();
+// }
