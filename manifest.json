@@ -3,7 +3,7 @@
   "name": "TrackTrack",
   "version": "1.0",
   "description": "A time tracker that helps you use time screen time wisely",
-  "permissions": ["notifications", "storage", "alarms"],
+  "permissions": ["notifications", "storage", "alarms", "background"],
   "icons": { "16": "img/icon16.png",
              "48": "img/icon48.png",
             "128": "img/icon128.png" },
@@ -12,12 +12,7 @@
     "default_popup": "html/popup.html"
    },
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "js": ["/js/content.js"]
-    }
-  ],
+
   "web_accessible_resources": [
     "/img/icon48.png"
   ],
